@@ -1,0 +1,44 @@
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+a:hover {
+    color: #c0392b;
+    text-decoration: underline;
+}
+.nav {
+    margin-bottom: 20px;
+    font-weight:bold
+}
+
+.box {
+    border: 1px solid #ccc;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+#highlight {
+    background-color: #fff3cd;
+    padding: 2px 4px;
+}
+
+div { 
+    box-sizing: border-box;
+}
+
+.nav a {
+    margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+    .nav {
+        display: block;
+    }
+.nav a {
+        display: block;
+        margin-bottom: 8px;
+    }   
+}
