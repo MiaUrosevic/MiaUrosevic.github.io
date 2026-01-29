@@ -42,3 +42,14 @@ div {
         margin-bottom: 8px;
     }   
 }
+
+.projects-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.projects-table th, .projects-table td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: left;
+}
