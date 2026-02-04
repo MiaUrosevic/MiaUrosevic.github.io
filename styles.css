@@ -55,7 +55,13 @@ div {
 }
 
 .img-brand {
-    width: 75px;
+    width: 100px;
     height: auto;
     border-radius: 5px;
+}
+
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+  padding: 2px 4px;
 }
